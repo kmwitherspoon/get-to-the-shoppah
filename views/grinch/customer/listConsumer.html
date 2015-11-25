@@ -12,7 +12,7 @@
     {{items.price | currency}}
   </p>
   <p>
-    <button ng-click="togglePicks()" type="button" name="button" class="buttontwo">Write Review</button>
+    <button ng-click="toggleMe = !toggleMe" type="button" name="button" class="buttontwo">Write Review</button>
     <form ng-show="toggleMe" action="">
       <input ng-model="items.customer" type="text" placeholder="Name">
       <input ng-model="items.rating" type="text" placeholder="Rating">
@@ -20,6 +20,9 @@
       <input class="submit" type="submit" ng-click="showme=false" value="Submit">
     </form>
     <!-- {{items.rating}} -->
+  </p>
+  <p ng-init="count=1">
+    {{items.count}}
   </p>
   <p><a href="#/grinchCart"><button type="button" name="button" class="buttontwo" ng-click="addCartItem(items)">Add to Cart</button></a></p>
   <hr>

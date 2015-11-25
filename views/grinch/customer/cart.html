@@ -24,6 +24,6 @@
     <p><button type="button" name="button" class="buttontwo" ng-click="deleteCartItem(items)">Delete</button></p>
     <hr>
   </div>
-  <p >Total: {{count}}</p>
+  <p class="total">Total: {{total() | currency}}</p>
   <p><a href="#/grinchCheckout"><button type="button" name="button" class="buttontwo" >Checkout</button></a></p>
 </div>

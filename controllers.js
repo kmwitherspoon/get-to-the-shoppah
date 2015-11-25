@@ -36,7 +36,18 @@
         console.log(newItem);
         ConsumerService.deleteCartItem(newItem);
       };
-    });
+      function SumCtrl($scope) {
+
+        $scope.total = function() {
+          var total = 0;
+          angular.forEach($scope.items, function(item) {
+              total += item.count * item.price;
+          })
+
+          return total;
+      }
+    };
+        });
 
 
 })();

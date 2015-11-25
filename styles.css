@@ -116,8 +116,14 @@ body {
     clear: both; }
   .cart .item .click {
     margin-top: 0; }
+  .cart .item span {
+    margin-left: 5px; }
   .cart .item .buttontwo {
     margin-top: 0; }
+
+.cart .total {
+  margin-top: 100px;
+  font-size: 28px; }
 
 .checkout h1 {
   font-size: 50px; }
