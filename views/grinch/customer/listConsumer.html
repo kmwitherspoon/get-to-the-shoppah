@@ -1,0 +1,28 @@
+<div class="list-consumer">
+  <h1>Items to be Stolen from Whoville</h1>
+  <p><a href="#/grinchCart"><button type="button" name="button" class="buttontwo">Go to Cart</button></a></p>
+
+<div ng-repeat="items in allItems">
+  <h3>{{items.title}}</h3>
+  <img ng-src="{{items.cover}}" alt="" />
+  <p>
+    {{items.description}}
+  </p>
+  <p>
+    {{items.price | currency}}
+  </p>
+  <p>
+    <button ng-click="togglePicks()" type="button" name="button" class="buttontwo">Write Review</button>
+    <form ng-show="toggleMe" action="">
+      <input ng-model="items.customer" type="text" placeholder="Name">
+      <input ng-model="items.rating" type="text" placeholder="Rating">
+      <textarea ng-model="items.review" type="text" placeholder="Review"></textarea>
+      <input class="submit" type="submit" ng-click="showme=false" value="Submit">
+    </form>
+    <!-- {{items.rating}} -->
+  </p>
+  <p><a href="#/grinchCart"><button type="button" name="button" class="buttontwo" ng-click="addCartItem(items)">Add to Cart</button></a></p>
+  <hr>
+</div>
+
+</div>

@@ -1,0 +1,21 @@
+<div class="list">
+  <h1>Items to be Stolen</h1>
+  <p><a href="#/addItem"><button type="button" name="button" class="buttontwo">Add new Item</button></a></p>
+
+<div ng-repeat="items in allItems">
+  <h3 editable-text="items.title">{{items.title}}</h3>
+  <img editable-text="items.cover" ng-src="{{items.cover}}" alt="" />
+  <p editable-text="items.description">
+    {{items.description}}
+  </p>
+  <p editable-text="items.price">
+    {{items.price | currency}}
+  </p>
+  <p>{{items.customer}}</p>
+  <p>{{items.rating}}</p>
+  <p>{{items.review}}</p>
+  <p><button type="button" name="button" class="buttontwo" ng-click="deleteItem(items)">Delete</button></p>
+  <hr>
+</div>
+
+</div>

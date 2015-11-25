@@ -1,0 +1,19 @@
+<div class="checkout">
+  <h1>Checkout</h1>
+  <div ng-repeat="items in allCartItems">
+    <h3>{{items.title}}</h3>
+    <img ng-src="{{items.cover}}" alt="" />
+    <p>
+      {{items.description}}
+    </p>
+    <p>
+      {{items.price | currency}}
+    </p>
+    <p>
+      {{items.review}}
+    </p>
+    <p>
+      {{items.rating}}
+    </p>
+  </div>
+</div>

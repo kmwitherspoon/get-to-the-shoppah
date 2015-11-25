@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Grinched';
+  src: url("GrinchedRegular.ttf"); }
+
+body {
+  background: url("http://img14.deviantart.net/7dc9/i/2011/358/f/2/el_grinch_fondo_de_pantalla_by_yuman1-d4k2g75.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Grinched';
+  color: white; }
+
+.home h1 {
+  font-size: 60px;
+  text-shadow: 2px 2px red; }
+
+.home button {
+  background: red;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 20px;
+  font: normal 700 32px/1 "Grinched";
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
+  border-radius: 5px; }
+
+.create h1 {
+  font-size: 50px; }
+  .create h1 .buttontwo {
+    margin-top: 10px;
+    background: red;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 20px;
+    font: normal 700 24px/1 "Grinched";
+    text-align: center;
+    text-shadow: 1px 1px 0 #000; }
+
+.create input {
+  display: block;
+  margin-top: 10px;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  font-family: 'Grinched';
+  color: black;
+  font-size: 20px; }
+
+.create button {
+  margin-top: 10px;
+  background: red;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 20px;
+  font: normal 700 32px/1 "Grinched";
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
+  border-radius: 5px; }
+
+.list h1 {
+  font-size: 50px; }
+
+.list .buttontwo {
+  background: red;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 20px;
+  font: normal 700 20px/1 "Grinched";
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
+  border-radius: 5px; }
+
+.list div {
+  color: white;
+  margin-top: 100px; }
+  .list div h3 {
+    font-size: 28px; }
+  .list div img {
+    max-width: 600px;
+    height: 400px; }
+  .list div p {
+    font-size: 22px; }
+  .list div hr {
+    color: white;
+    width: 600px;
+    float: left;
+    clear: both; }
+
+.cart h1 {
+  font-size: 50px; }
+
+.cart button {
+  margin-top: 100px;
+  background: red;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 20px;
+  font: normal 700 20px/1 "Grinched";
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
+  border-radius: 5px; }
+
+.cart .item {
+  margin-top: 100px; }
+  .cart .item h3 {
+    font-size: 28px; }
+  .cart .item img {
+    max-width: 600px;
+    max-height: 400px; }
+  .cart .item p {
+    font-size: 22px; }
+  .cart .item hr {
+    color: white;
+    width: 600px;
+    float: left;
+    clear: both; }
+  .cart .item .click {
+    margin-top: 0; }
+  .cart .item .buttontwo {
+    margin-top: 0; }
+
+.checkout h1 {
+  font-size: 50px; }
+
+.checkout div h3 {
+  font-size: 28px; }
+
+.checkout div img {
+  max-width: 500px;
+  height: 500px; }
+
+.checkout div p {
+  font-size: 22px; }
+
+.checkout div hr {
+  color: white;
+  width: 600px;
+  float: left;
+  clear: both; }
+
+.editable-wrap {
+  display: block; }
+
+.editable-click, a.editable-click {
+  color: white;
+  border-bottom: 0px; }
+
+.editable-click:hover {
+  color: white;
+  border-bottom: 0px; }
+
+.editable-buttons button {
+  background-color: red;
+  width: 20px;
+  height: 20px; }
+
+.btn-primary {
+  color: white;
+  background-color: red; }
+
+.list-consumer h1 {
+  font-size: 50px; }
+
+.list-consumer .buttontwo {
+  background: red;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 20px;
+  font: normal 700 20px/1 "Grinched";
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
+  border-radius: 5px; }
+
+.list-consumer div {
+  color: white;
+  margin-top: 100px; }
+  .list-consumer div h3 {
+    font-size: 28px; }
+  .list-consumer div img {
+    max-width: 500px;
+    max-height: 500px; }
+  .list-consumer div p {
+    font-size: 22px; }
+  .list-consumer div hr {
+    color: white;
+    width: 600px;
+    float: left;
+    clear: both; }
+
+.list-consumer form input {
+  display: block;
+  margin-top: 10px;
+  width: 500px;
+  font-size: 20px; }
+
+.list-consumer form .submit {
+  width: 10%;
+  background: red;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 20px;
+  font: normal 700 20px/1 "Grinched";
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
+  border-radius: 5px; }
+
+.list-consumer form textarea {
+  display: block;
+  margin-top: 10px;
+  width: 500px;
+  font-size: 20px; }

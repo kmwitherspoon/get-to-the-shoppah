@@ -1,0 +1,29 @@
+<div class="cart">
+  <h1>Cart - <a href="#/grinchList"><button type="button" name="button" class="buttontwo">Go Back to List</button></a></p></h1>
+  <div class="item" ng-repeat="items in allCartItems">
+    <h3>{{items.title}}</h3>
+    <img ng-src="{{items.cover}}" alt="" />
+    <p>
+      {{items.description}}
+    </p>
+    <p>
+      {{items.price | currency}}
+    </p>
+    <p>
+      {{items.review}}
+    </p>
+    <p>
+      {{items.rating}}
+    </p>
+    <button class="click" ng-click="count = count + 1" ng-init="count=1">
+      Quantity
+    </button>
+    <span>
+      {{items.count}}
+    </span>
+    <p><button type="button" name="button" class="buttontwo" ng-click="deleteCartItem(items)">Delete</button></p>
+    <hr>
+  </div>
+  <p >Total: {{count}}</p>
+  <p><a href="#/grinchCheckout"><button type="button" name="button" class="buttontwo" >Checkout</button></a></p>
+</div>
